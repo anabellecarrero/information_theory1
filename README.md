@@ -16,10 +16,18 @@ It must be a numeric symbol dictionary, not a character one.
 While the coder requires a file as input and generate a coded file as output, the decoder needs a coded file as an input and generate a decoded file as an output, exactly like the original one.
 
 The function criar_graficos is responsible for plotting three graphs:
+
+
 1- (Processing Time X K), for K = 9, 10, 11, 12, 13, 14, 15,  16. The K variant should be on graphs's X axle.
+
+
 2- (RC X K), which RC stands for an equation that represents:
+
 RC = tamArqOriginal / tamArqComprimido (OriginalFileSize / CompressedFileSize)
+
+
 3- (RC X K), which RC stands for an equation that represents:
+
 RC = tamArqOriginal/ ((totalIndices X K)/8) (OriginalFileSize / (TotalIndex X K)8))
 TotalIndex = index's total amount used during the message encoding.
 
